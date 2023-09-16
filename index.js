@@ -19,6 +19,8 @@ search.addEventListener('click', () => {
         weatherBox.style.display = 'none';
         weatherDetails.style.display = 'none';
         error404.style.display = 'block';
+        error404.style.scale = '1';
+        error404.style.opacity = '1';
         error404.classList.add('fadeIn');
         return;
       }
